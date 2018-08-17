@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'haloregular';
+    src: url(fonts/halofont/halo-webfont.woff2) format('woff2'),
+         url(fonts/halofont/halo-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: haloregular;
+    background-image: url(../images/backround.jpg);
+    color: #cacaca;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+.gamebox{
+    width: 800px;
+    height: 300px;
+    border: red 1px solid;
+    margin: 0 auto;
+}
+#leftbox{
+    width: 400px;
+    height: 300px;
+    border: red 1px solid;
+    float: left;
+    background: #303030;
+
+}
+
+#rightbox{
+    width: 400px;
+    height: 300px;
+    border: red 1px solid;
+    float: right;
+    background: #303030; 
+    margin-top: -302px
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
