@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'haloregular';
+    src: url(fonts/halofont/halo-webfont.woff2) format('woff2'),
+         url(fonts/halofont/halo-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: haloregular;
+    background-image: url(../images/hdring.png);
+    color: #cacaca;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+.gamebox{
+    width: 1600px;
+    height: 600px;
+    
+    margin: 0 auto;
+}
+#leftbox{
+    width: 400px;
+    height: 600px;
+    
+    float: left;
+    
+
+}
+#rightbox{
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    background: #303030; 
+    
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+.textBox{
+    font-size: 40px
+}
+[class*="container"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .container {
+         width: 8.33%;
+         font-size: 50%;
+         text-align: center;}
+    .container {
+        width: 16.66%;
+        font-size: 50%;
+        text-align: center;}
+    .container {
+        width: 25%;
+        font-size: 50%;
+        text-align: center;}
+    .container {
+        width: 33.33%;
+        font-size: 50%;
+        text-align: center;}
+    .container {
+        width: 41.66%;
+        font-size: 50%;
+        text-align: center;}
+    .container {
+        width: 50%;
+        font-size: 50%;
+        text-align: center;}
+    .container {
+        width: 58.33%;
+        font-size: 50%;
+        text-align: center;}
+    .container {
+        width: 66.66%;
+        font-size: 50%;
+        text-align: center;}
+    .container {
+        width: 75%;
+        font-size: 50%;
+        text-align: center;}
+    .container {
+        width: 83.33%;
+        font-size: 50%;
+        text-align: center;}
+    .container {
+        width: 91.66%;
+        font-size: 50%;
+        text-align: center;}
+    .container {
+        width: 100%;
+        font-size: 50%;
+        text-align: center;}
+}  
